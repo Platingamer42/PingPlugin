@@ -1,0 +1,3 @@
+name: PingPlugin
+main: de.platingamer42.pingplugin.Main
+version: 1.0

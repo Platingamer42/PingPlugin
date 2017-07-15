@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PingPlugin:jar">
+    <output-path>D:/Spigot-Server/BungeeCord/plugins</output-path>
+    <root id="archive" name="PingPlugin.jar">
+      <element id="module-output" name="PingPlugin" />
+    </root>
+  </artifact>
+</component>
