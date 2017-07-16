@@ -14,7 +14,7 @@ public class CommandPing extends Command {
     public void execute(CommandSender sender, String[] args) {
         if (!(sender instanceof ProxiedPlayer)){
             sender.sendMessage(new ComponentBuilder("Du musst ein Spieler sein," +
-                    " um diesen Befehl ausführen zu künnen").color(ChatColor.RED).create());
+                    " um diesen Befehl ausführen zu können").color(ChatColor.RED).create());
             return;
         }
         ProxiedPlayer p = (ProxiedPlayer) sender;
