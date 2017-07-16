@@ -11,7 +11,7 @@ public class CommandPing extends Command {
         super("ping");
     }
     @Override
-    public void execute(CommandSender sender, String[] args) {
+    public void execute(CommandSender sender, String[] args){
         if (!(sender instanceof ProxiedPlayer)){
             sender.sendMessage(new ComponentBuilder("Du musst ein Spieler sein," +
                     " um diesen Befehl ausführen zu können").color(ChatColor.RED).create());
